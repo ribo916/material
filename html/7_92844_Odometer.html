@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+
+<body>
+
+<div id="textblock" style="padding-left: 2%; padding-right: 2%; font-family: Helvetica, Arial, sans-serif; font-size: 1.2em; width:80%; overflow-wrap: break-word;">
+	 <div name="nested" style="display: flex; flex-direction: row; flex-wrap: wrap; width:100%;">
+		 <div class="logoText" style="height: auto; display: block; border: none; max-width:50%;"><img 
+		 style="height: auto; display: block; border: none; max-width:50%;" src="data:image/gif;base64,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" /></div>
+		 
+		<div style="overflow-wrap: break-word;font-family: Helvetica, Arial, sans-serif;font-weight: 500;font-size: 3vw;text-align: right; padding-top:1%; width:50%;">
+            ODOMETER DISCLOSURE
+					<p style="font-family: Helvetica, Arial, sans-serif;font-weight: 400;font-size: 2vw;padding-right:15%;
+					text-align:top; padding-bottom:2%;">
+					ELECTRONIC
+					</p>					
+				</div>	
+			</div>
+		<br />
+		<p class="center-title" style="overflow-wrap: break-word;font-family: Helvetica, Arial, sans-serif;font-weight: 600;font-size: 2vh; font-
+		text-align: left; ">
+            For Dealer use to capture an original signature with use of an electronic signature pad. This form may not be printed and signed by hand.
+        </p>	
+		
+		 <section id="flex-table" style="display: flex; margin-top: 1%; width: 100%;">
+		  <div name="table-container" style="display: flex; flex-direction: column; border: 2px solid #000; border-bottom: 0px solid #000; border-right: 0px solid #000; width: 100%; min-width: 15em;">
+				 <div name="nested" style="display: flex; flex-direction: row; flex-wrap: wrap; width:100%;">
+			         <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5; vertical-align: text-top; text-align: left; height: 3em; padding-left:1%;">
+                        Vehicle Identification Number
+                    </div>
+					
+					 <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em;padding-left:1%;">
+                        Year
+                    </div>
+					
+					<div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em;padding-left:1%;">
+                        Make 
+                    </div>
+					
+					<div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; 
+					flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em;padding-left:1%;">
+                        Body Style 
+                    </div>
+					
+				</div>	
+				
+				 <div name="nested" style="display: flex; flex-direction: row; flex-wrap: wrap; width:100%;">
+			         <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5; vertical-align: text-top; text-align: left; height: 3em;padding-left:1%;">
+                        Buyer Name
+                    </div>
+					
+					 <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em;padding-left:1%;">
+                        Sale datetime
+                    </div>
+					
+					<div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em;padding-left:1%;">
+                        Title Number 
+                    </div>		
+				</div>	
+			</div>
+		</section>
+				
+		 <section style=" display: flex; flex-direction: column;">
+            <div style="text-align: justify; font-size: 1em; margin-top: 1em;">
+						Federal and State law require that the seller states the mileage in connection with the transfer of
+						ownership. Failure to complete the odometer statement, or providing a false
+						statement, may result in fines and/or imprisonment.
+            </div>
+		  </section>
+		  
+		   <section id="flex-table" style="display: flex; margin-top: 1%; width: 100%;">
+		  <div name="table-container" style="display: flex; flex-direction: column;   width: 100%;">			
+				<div name="nested" style="display: flex; flex-direction: row; flex-wrap: wrap; width:100%;">
+			         <div style="display: inline-flex; border: 2px solid #000;  min-width: 15em; flex-grow: 5; vertical-align: text-top; text-align: left; height: 3em;">
+                       Odometer Reading (no tenths)
+						<p>
+						<input type="checkbox" name="miles  ">miles &nbsp;</input>
+						<input type="checkbox" name="kilometers"/> kilometers &nbsp;</input></p>
+					</div>
+					<br />
+					<div style="display: inline-flex;  min-width: 8em; flex-grow: 5; text-align: left; height: 3em; padding-left:2%;width:40%;				
+					padding-bottom:1%;">
+                   <p>  <input type="checkbox" style="display:inline-flex; flex-wrap: wrap; text-align: center;padding-bottom:2%; "> Mileage in excess of the odometer mechanical limits.</input>
+						<br />
+                      <input type="checkbox" style="display:inline-flex; flex-wrap: wrap;">  NOT Actual Mileage, WARNING - ODOMETER DISCREPANCY. </input> 	</p>			   
+					   </div>
+				</div>			   
+		   </div>
+		   </section>
+		   <br />
+			<section style=" display: flex; flex-direction: column;">
+				<div style="text-align: justify; font-size: 1em; margin-top: 1em;">
+					I certify to the best of my knowledge that the odometer reading is the actual mileage unless one of the boxes above is checked.
+				</div>
+			</section>
+	   <br />
+
+			<section id="flex-table" style="display: flex; margin-top: 1%; width: 100%;">
+				<div name="table-container" style="display: flex; flex-direction: column; border: 2px solid #000; border-bottom: 0px solid #000; border-right: 0px solid #000; width: 100%; min-width: 15em;">	
+					<div name="nested" style="display: flex; flex-direction: row; flex-wrap: wrap; width:100%;  ">
+			         <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5; vertical-align: text-top; text-align: left; height: 3em; padding-left:1%">
+                       Seller/Dealership Name (printed)
+                    </div>
+					
+					 <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em; padding-left:1%">
+                        Dealer Number
+                    </div>
+					
+				</div>	
+				
+				 <div name="nested" style="display: flex; flex-direction: row; flex-wrap: wrap; width:100%;">
+			         <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5; vertical-align: text-top; text-align: left; height: 3em; padding-left:1%">
+                        Street Address
+                    </div>
+					
+					 <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em; padding-left:1%">
+                        City
+                    </div>
+					
+					<div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em; padding-left:1%">
+                        State
+                    </div>		
+					
+					<div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em; padding-left:1%">
+                        Zip
+                    </div>	
+					
+				</div>	
+				
+				<div name="nested" style="display: flex; flex-direction: row; flex-wrap: wrap; width:100%;">
+			         <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5; vertical-align: text-top; text-align: left; height: 3em; padding-left:1%">
+                       Agent Name
+                    </div>
+					
+					 <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em; padding-left:1%">
+                       Seller/Agent Signature
+                    </div>
+
+				</div>				
+			</div>
+		</section>		
+			<section style=" display: flex; flex-direction: column;">
+				<div style="text-align: justify; font-size: 1em; margin-top: 1em;">
+					I am aware of the above odometer certification made by the seller.
+				</div>
+			</section>			
+			<section id="flex-table" style="display: flex; margin-top: 1%; width: 100%;">
+				<div name="table-container" style="display: flex; flex-direction: column; border: 2px solid #000; border-bottom: 0px solid #000; border-right: 0px solid #000; width: 100%;">	
+					<div name="nested" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+						 <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5; vertical-align: text-top; text-align: left; height: 3em; padding-left:1%">
+						   Buyer Name (printed)
+						</div>						
+						 <div style="display: inline-flex; border-bottom: 2px solid #000; border-right: 2px solid #000; min-width: 15em; flex-grow: 5;vertical-align: text-top; text-align: left; height: 3em; padding-left:1%">
+							Dealer Number
+						</div>				
+					</div>
+				</div>				
+			</section>
+        <br><br>
+
+        <p>{{"tabLabel": "signatureTab"}}</p>
+
+        <p>Borrower Signature</p>
+
+    </div>
+</body>
+</html>
+
