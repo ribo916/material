@@ -24,6 +24,14 @@ function makeEnvelope(args) {
   docAsHtml7.documentId = "7"; 
   let docAsHtml8 = createHtmlDefinitionDoc('8_CreditScoreSummary.html');
   docAsHtml8.documentId = "8";
+  let docAsHtml9 = createHtmlDefinitionDoc('9_FactAct.html');
+  docAsHtml9.documentId = "9";
+  let docAsHtml10 = createHtmlDefinitionDoc('10_AgreementToProvideIns.html');
+  docAsHtml10.documentId = "10";
+  let docAsHtml11 = createHtmlDefinitionDoc('11_ConsumerLoan.html');
+  docAsHtml11.documentId = "11";
+  let docAsHtml12 = createHtmlDefinitionDoc('12_W9.html');
+  docAsHtml12.documentId = "12";
 
 /*
   // Responsive Option 2 = PDF sent via htmlDefinition
@@ -44,14 +52,17 @@ function makeEnvelope(args) {
 */
 
   // NOTE: The order of array dictates order in envelope
-  env.documents = [docAsHtml8];
+  // env.documents = [docAsHtml, docAsHtml2, docAsHtml3, docAsHtml4, docAsHtml5, docAsHtml6, docAsHtml7, docAsHtml8, docAsHtml9, docAsHtml10, docAsHtml11, docAsHtml12];
+  //env.documents = [docAsHtml8, docAsHtml9, docAsHtml3, docAsHtml5, docAsHtml6, docAsHtml7];
+  
+env.documents = [docAsHtml7];
 
   // Construct Signer
   let signer1 = docusign.Signer.constructFromObject({
     email: args.signerEmail,
     name: args.signerName,
     recipientId: args.recipientId,
-    clientUserId: args.clientUserId,
+    clientUserId: args.clientUserId,    
     routingOrder: "1",
   });
 
