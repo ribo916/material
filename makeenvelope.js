@@ -55,7 +55,7 @@ function makeEnvelope(args) {
   // env.documents = [docAsHtml, docAsHtml2, docAsHtml3, docAsHtml4, docAsHtml5, docAsHtml6, docAsHtml7, docAsHtml8, docAsHtml9, docAsHtml10, docAsHtml11, docAsHtml12];
   //env.documents = [docAsHtml8, docAsHtml9, docAsHtml3, docAsHtml5, docAsHtml6, docAsHtml7];
   
-env.documents = [docAsHtml7];
+env.documents = [docAsHtml7, docAsHtml8];
 
   // Construct Signer
   let signer1 = docusign.Signer.constructFromObject({
